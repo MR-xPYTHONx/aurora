@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Java
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# Go
+bin/
+pkg/
+*.exe
+
+# Rust
+/target/
+Cargo.lock
+
+# Docker
+*.local
+*.env
+.env*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+coverage/
+.coverage
+htmlcov/
