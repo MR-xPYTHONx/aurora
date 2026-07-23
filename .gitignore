@@ -3,6 +3,15 @@ node_modules/
 .pnpm-store/
 .vendor/
 
+# Generated build output
+.next/
+dist/
+coverage/
+*.tsbuildinfo
+.env
+.env.local
+.env.*
+
 # Python
 __pycache__/
 *.py[cod]
@@ -35,8 +44,6 @@ Cargo.lock
 
 # Docker
 *.local
-*.env
-.env*
 
 # Editors
 .vscode/
