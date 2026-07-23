@@ -9,11 +9,14 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "echo \"No development script configured\"",
-    "build": "echo \"No build script configured\"",
-    "lint": "echo \"No lint script configured\"",
+    "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r run build",
+    "lint": "pnpm -r run lint",
     "test": "echo \"No test script configured\"",
-    "typecheck": "tsc -p tsconfig.base.json --noEmit"
+    "typecheck": "tsc -p tsconfig.base.json --noEmit",
+    "db:generate": "pnpm --filter @aurora/prisma run db:generate",
+    "db:migrate": "pnpm --filter @aurora/prisma run db:migrate",
+    "db:studio": "pnpm --filter @aurora/prisma run db:studio"
   },
   "dependencies": {},
   "devDependencies": {

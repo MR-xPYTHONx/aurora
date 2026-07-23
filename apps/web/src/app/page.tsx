@@ -1,8 +1,7 @@
 export default function HomePage() {
   return (
-    <main>
-      <h1>Aurora Web</h1>
-      <p>Next.js app initialized successfully.</p>
+    <main style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
+      <h1>Aurora</h1>
     </main>
   );
 }

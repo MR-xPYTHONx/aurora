@@ -10,7 +10,6 @@
     "strict": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
     "baseUrl": ".",
     "ignoreDeprecations": "5.0",
     "jsx": "preserve",
